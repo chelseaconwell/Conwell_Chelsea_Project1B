@@ -1,8 +1,65 @@
 body {
   background-image: url(Images/marble-by-heyhan.png); }
-  body h1 {
-    font-family: 'Abril Fatface', cursive; }
-  body h2 {
-    font-family: 'Open Sans Condensed', sans-serif; }
+
+nav {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif; }
+  nav ul li {
+    display: inline-block;
+    width: 300px; }
+
+a:link {
+  text-decoration: none;
+  color: #566573;
+  transition: .2s all; }
+
+a:hover {
+  font-size: 25px;
+  color: #566573;
+  transition: .5s all; }
+
+a:visited {
+  text-decoration: none;
+  color: #566573; }
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  text-align: center; }
+
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center; }
+
+#currentread {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: .1s all; }
+
+#currentread:hover {
+  border: 9px white solid;
+  transition: .2s all; }
+
+.info-box button {
+  width: 15vw;
+  height: 5vh;
+  font-size: 10x;
+  display: block;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto; }
+.info-box button:hover {
+  cursor: pointer; }
+.info-box p {
+  display: none; }
+.info-box p.visible {
+  display: inline-block; }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 /*# sourceMappingURL=main.css.map */
