@@ -19,15 +19,19 @@ body {
     text-align: center;
 }
 
+#introquote:hover {
+    color: $primary-color;
+}
+
 #website-intro {
     padding-top: 13%;
 }
 
 #website-intro:hover {
     text-decoration: underline;
-    text-decoration-style: wavy;
     text-decoration-color: rgb(86, 101, 115);
     transition: .3s all;
+    color: black;
 }
 
 nav {
@@ -63,9 +67,19 @@ h1 {
     text-align: center;
 }
 
+h1:hover {
+    color: $primary-color;
+    transition: .6s all;
+}
+
 h2 {
     font-family: 'Open Sans Condensed', sans-serif;
     text-align: center;
+}
+
+h2:hover {
+    transform: translateY(-5px);
+    transition: .1s all;
 }
 
 #currentread {
