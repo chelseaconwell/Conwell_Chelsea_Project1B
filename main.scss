@@ -1,5 +1,33 @@
+$primary-color: rgb(86, 101, 115);
 body {
     background-image: url(Images/marble-by-heyhan.png);
+}
+
+.button {
+    line-height: 100px;
+    height: 200px;
+    text-align: center;
+    button {
+        width: 80px;
+        height: 30px;
+    }
+}
+
+#introquote {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+#website-intro {
+    padding-top: 13%;
+}
+
+#website-intro:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(86, 101, 115);
+    transition: .3s all;
 }
 
 nav {
@@ -15,19 +43,19 @@ nav {
 
 a:link {
     text-decoration: none;
-    color: rgb(86, 101, 115);
+    color: $primary-color;
     transition: .2s all;
 }
 
 a:hover {
     font-size: 25px;
-    color: rgb(86, 101, 115);
+    color: $primary-color;
     transition: .5s all;
 }
 
 a:visited {
     text-decoration: none;
-    color: rgb(86, 101, 115);
+    color: $primary-color;
 }
 
 h1 {
@@ -67,9 +95,12 @@ h2 {
     }
     p {
         display: none;
+        font-family: 'Source Sans Pro', sans-serif;
     }
     p.visible {
         display: inline-block;
+        text-align: right;
+        margin-right: 10px;
     }
 }
 
@@ -77,4 +108,13 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+img:hover {
+    border: 9px white solid;
+    transition: .3s all;
+}
+
+.video {
+    float: left;
 }

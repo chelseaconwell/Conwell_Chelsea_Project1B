@@ -1,6 +1,28 @@
 body {
   background-image: url(Images/marble-by-heyhan.png); }
 
+.button {
+  line-height: 100px;
+  height: 200px;
+  text-align: center; }
+  .button button {
+    width: 80px;
+    height: 30px; }
+
+#introquote {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  text-align: center; }
+
+#website-intro {
+  padding-top: 13%; }
+
+#website-intro:hover {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #566573;
+  transition: .3s all; }
+
 nav {
   list-style-type: none;
   padding: 0;
@@ -53,13 +75,23 @@ h2 {
 .info-box button:hover {
   cursor: pointer; }
 .info-box p {
-  display: none; }
+  display: none;
+  font-family: 'Source Sans Pro', sans-serif; }
 .info-box p.visible {
-  display: inline-block; }
+  display: inline-block;
+  text-align: right;
+  margin-right: 10px; }
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto; }
+
+img:hover {
+  border: 9px white solid;
+  transition: .3s all; }
+
+.video {
+  float: left; }
 
 /*# sourceMappingURL=main.css.map */
