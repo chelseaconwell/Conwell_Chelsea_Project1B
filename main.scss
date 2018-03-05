@@ -132,3 +132,39 @@ img:hover {
 .video {
     float: left;
 }
+
+form {
+    padding: 25px;
+    margin: 0 auto;
+    width: 400px;
+    border: 2px solid $primary-color;
+}
+
+label {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    width: 90px;
+}
+
+textarea {
+    vertical-align: top;
+    height: 20vh;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+#suggestion {
+    vertical-align: top;
+    height: 3vh;
+    width: 20vw;
+}
+
+.contactbutton:hover {
+    cursor: pointer;
+}
+
+.contactbutton {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
